@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Company Name</title>
-  <meta name="description" content="Company Name — Strategic consulting for measurable growth." />
+
+  <title>Bioko Works | Bioko (Pty) Ltd</title>
+  <meta name="description" content="Bioko Works (Bioko (Pty) Ltd) — Where strategy meets execution. Bioko Edge (advisory) and Bioko Reach (route-to-market execution)." />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -13,22 +15,36 @@
   <header class="site-header" id="top">
     <div class="container header-inner">
       <!-- Brand -->
-      <a class="brand" href="#home" aria-label="Company Name home">
-        <span class="brand-badge" aria-hidden="true">A</span>
-        <span class="brand-name">Company Name</span>
+      <a class="brand" href="#home" aria-label="Bioko Works home">
+        <span class="brand-mark" aria-hidden="true">
+          <!-- Simple “target + arrow” inspired mark (inline SVG) -->
+          <svg viewBox="0 0 48 48" width="34" height="34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+            <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="3" opacity="0.95"/>
+            <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="3" opacity="0.95"/>
+            <circle cx="24" cy="24" r="5" fill="currentColor"/>
+            <path d="M30 18l10-10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M33 8h9v9" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+
+        <span class="brand-text">
+          <span class="brand-name">Bioko Works</span>
+          <span class="brand-sub">Bioko (Pty) Ltd</span>
+        </span>
       </a>
 
       <!-- Centered Nav -->
       <nav class="nav" aria-label="Primary navigation">
         <a class="nav-link is-active" href="#home">Home</a>
-        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#offerings">Offerings</a>
+        <a class="nav-link" href="#divisions">Divisions</a>
         <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#clients">Clients</a>
         <a class="nav-link" href="#contact">Contact</a>
       </nav>
 
       <!-- CTA -->
-      <a class="btn btn-primary header-cta" href="#contact">Get Started</a>
+      <a class="btn btn-primary header-cta" href="#contact">Request a Call</a>
     </div>
   </header>
 
@@ -37,162 +53,332 @@
     <section class="section hero" id="home" data-nav="Home">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="pill">STRATEGIC BUSINESS CONSULTING</div>
+          <div class="pill pill-hot">BIOKO WORKS</div>
 
           <h1 class="hero-title">
-            Optimize Your<br />
-            <span class="accent">Supply Chain &amp;<br />Sales</span>
+            Where strategy meets<br />
+            <span class="accent">execution</span>.
           </h1>
 
           <p class="hero-subtitle">
-            We partner with corporates and SMEs to design structured go-to-market strategies that deliver measurable
-            revenue growth and distribution efficiency.
+            We help brands win in-market through <strong>in-store promotions</strong>, <strong>brand activations</strong>,
+            and <strong>route-to-market distribution</strong> — backed by sharp advisory and commercial strategy.
           </p>
 
+          <div class="hero-bullets" role="list">
+            <div class="hero-bullet" role="listitem">
+              <span class="dot dot-reach" aria-hidden="true"></span>
+              <span><strong>Bioko Reach</strong> — Distribution &amp; route-to-market execution.</span>
+            </div>
+            <div class="hero-bullet" role="listitem">
+              <span class="dot dot-edge" aria-hidden="true"></span>
+              <span><strong>Bioko Edge</strong> — Advisory, strategy &amp; consulting.</span>
+            </div>
+          </div>
+
           <div class="hero-actions">
-            <a class="btn btn-primary btn-lg" href="#contact">Contact Us</a>
-            <a class="btn btn-ghost btn-lg" href="#services">Our Capabilities</a>
+            <a class="btn btn-primary btn-lg" href="#divisions">Explore Divisions</a>
+            <a class="btn btn-ghost btn-lg" href="#contact">Get in Touch</a>
+          </div>
+
+          <div class="hero-mini">
+            <div class="mini-card">
+              <div class="mini-kicker">Positioning</div>
+              <div class="mini-text">Execution • Reliability • Commercial capability</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-kicker">Approach</div>
+              <div class="mini-text">Insight → Plan → Activation → Shelf availability</div>
+            </div>
           </div>
         </div>
 
         <div class="hero-media">
           <div class="hero-image-wrap">
+            <!-- Keep your existing asset path (rename file in /assets if needed) -->
             <img
               src="assets/warehouse-hero.avif"
-              alt="Warehouse operations"
+              alt="Warehouse and distribution operations"
               class="hero-image"
               loading="eager"
             />
+            <div class="hero-image-overlay" aria-hidden="true"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SERVICES / CORE CAPABILITIES -->
-    <section class="section section-soft" id="services" data-nav="Services">
+    <!-- OFFERINGS -->
+    <section class="section section-soft" id="offerings" data-nav="Offerings">
       <div class="container">
         <div class="section-head center">
-          <div class="section-kicker">CORE CAPABILITIES</div>
-          <h2 class="section-title">Solutions for Sustainable Growth</h2>
+          <div class="section-kicker">WHAT WE DO</div>
+          <h2 class="section-title">Commercial growth, built for the real market</h2>
+          <p class="section-subtitle">
+            One partner, <strong>execution plus insight</strong> — from planning to on-the-ground delivery.
+          </p>
           <div class="section-underline" aria-hidden="true"></div>
         </div>
 
         <div class="cards-3">
           <!-- Card 1 -->
           <article class="card">
-            <div class="card-icon" aria-hidden="true">
+            <div class="card-icon card-icon-hot" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
-                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
-                <path d="M8.5 12.2l2.2 2.2 5-5.2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 16l6-6 4 4 6-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 6h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3 class="card-title">Sales</h3>
+            <h3 class="card-title">In-Store Promotions</h3>
             <p class="card-text">
-              Strategic processes designed to sharpen conversion rates and provide 100% pipeline visibility.
+              Retail-ready promotions designed to lift conversion, grow basket size, and accelerate trials.
             </p>
             <ul class="card-list">
-              <li>Pipeline Architecture</li>
-              <li>CRM Implementation</li>
-              <li>Performance Audit</li>
+              <li>Promo planning &amp; execution</li>
+              <li>Store compliance &amp; reporting</li>
+              <li>Merchandising support</li>
             </ul>
           </article>
 
           <!-- Card 2 -->
           <article class="card">
-            <div class="card-icon" aria-hidden="true">
+            <div class="card-icon card-icon-warm" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
                 <path d="M13 2L3 14h8l-1 8 11-14h-8l0-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3 class="card-title">Marketing</h3>
+            <h3 class="card-title">Brand Activations</h3>
             <p class="card-text">
-              Data-driven demand generation campaigns that find, engage, and qualify high-value leads.
+              High-impact activations that create demand, drive awareness, and convert footfall into sales.
             </p>
             <ul class="card-list">
-              <li>Lead Generation Funnels</li>
-              <li>Market Positioning</li>
-              <li>Content Strategy</li>
+              <li>Sampling &amp; demos</li>
+              <li>Field teams &amp; promoters</li>
+              <li>Campaign measurement</li>
             </ul>
           </article>
 
           <!-- Card 3 -->
           <article class="card">
-            <div class="card-icon" aria-hidden="true">
+            <div class="card-icon card-icon-cool" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
-                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
-                <path d="M3.5 12h17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M12 3c2.8 2.6 4.2 6 4.2 9S14.8 18.4 12 21c-2.8-2.6-4.2-6-4.2-9S9.2 5.6 12 3z"
-                      stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M3 7h11v10H3V7z" stroke="currentColor" stroke-width="2"/>
+                <path d="M14 10h4l3 3v4h-7v-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3 class="card-title">Supply Chain Distribution</h3>
+            <h3 class="card-title">Distribution &amp; Route-to-Market</h3>
             <p class="card-text">
-              Optimized route-to-market strategies that ensure maximum product availability and reach.
+              Ensure availability where it matters — “from warehouse to shelf” with clear visibility.
             </p>
             <ul class="card-list">
-              <li>Route-to-Market Design</li>
-              <li>Distribution Mapping</li>
-              <li>Coverage Optimization</li>
+              <li>Route planning &amp; coverage</li>
+              <li>Store drops &amp; replenishment</li>
+              <li>Availability &amp; OOS tracking</li>
             </ul>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- DIVISIONS -->
+    <section class="section" id="divisions" data-nav="Divisions">
+      <div class="container">
+        <div class="split-head">
+          <div>
+            <div class="section-kicker">DIVISION MODEL</div>
+            <h2 class="section-title">One group brand, two specialist arms</h2>
+            <p class="section-subtitle">
+              Engage at the level you need — <strong>Reach</strong> for execution, <strong>Edge</strong> for insight — or combine both.
+            </p>
+          </div>
+          <div class="split-badges" aria-hidden="true">
+            <span class="chip chip-reach">BIOKO REACH</span>
+            <span class="chip chip-edge">BIOKO EDGE</span>
+          </div>
+        </div>
+
+        <div class="division-grid">
+          <!-- Reach -->
+          <article class="division division-reach">
+            <div class="division-top">
+              <div class="division-tag">Execution Division</div>
+              <h3 class="division-title">Bioko Reach</h3>
+              <p class="division-text">
+                Built for <strong>market access, coverage, availability</strong> and physical execution in-market.
+              </p>
+            </div>
+
+            <div class="division-points">
+              <div class="point">
+                <div class="point-ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path d="M12 2l7 7-7 7-7-7 7-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M5 9h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="point-title">Route-to-Market Design</div>
+                  <div class="point-text">Coverage planning, territory mapping, execution readiness.</div>
+                </div>
+              </div>
+
+              <div class="point">
+                <div class="point-ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path d="M4 6h16v10H4V6z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M7 20h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="point-title">In-Store Execution</div>
+                  <div class="point-text">Store presence, compliance checks, shelf availability.</div>
+                </div>
+              </div>
+
+              <div class="point">
+                <div class="point-ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path d="M3 7h11v10H3V7z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M14 10h4l3 3v4h-7v-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="point-title">Distribution Operations</div>
+                  <div class="point-text">Drops, replenishment, and reporting that retailers trust.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="division-cta">
+              <a class="btn btn-primary" href="#contact">Enquire: Bioko Reach</a>
+              <span class="division-note">“From warehouse to shelf.”</span>
+            </div>
+          </article>
+
+          <!-- Edge -->
+          <article class="division division-edge">
+            <div class="division-top">
+              <div class="division-tag">Advisory Division</div>
+              <h3 class="division-title">Bioko Edge</h3>
+              <p class="division-text">
+                Built for <strong>insight, strategy, competitive advantage</strong> — turning information into better outcomes.
+              </p>
+            </div>
+
+            <div class="division-points">
+              <div class="point">
+                <div class="point-ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8.5 12.2l2.2 2.2 5-5.2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="point-title">Commercial Strategy</div>
+                  <div class="point-text">Go-to-market planning, pricing logic, channel strategy.</div>
+                </div>
+              </div>
+
+              <div class="point">
+                <div class="point-ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path d="M4 16l6-6 4 4 6-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="point-title">Performance &amp; Reporting</div>
+                  <div class="point-text">Measurement frameworks and actionable dashboards.</div>
+                </div>
+              </div>
+
+              <div class="point">
+                <div class="point-ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path d="M12 3v18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M7 8l5-5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="point-title">Growth Advisory</div>
+                  <div class="point-text">Sharper decision-making and long-term improvement.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="division-cta">
+              <a class="btn btn-ghost" href="#contact">Enquire: Bioko Edge</a>
+              <span class="division-note">“Turning insight into advantage.”</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- ABOUT -->
-    <section class="section" id="about" data-nav="About">
+    <section class="section section-soft" id="about" data-nav="About">
       <div class="container about-grid">
         <div class="about-media">
           <div class="image-soft">
-            <img src="assets/laptop-hero.avif" alt="Analytics dashboard on laptop" loading="lazy" />
+            <img src="assets/laptop-hero.avif" alt="Commercial analytics and planning" loading="lazy" />
+            <div class="image-soft-overlay" aria-hidden="true"></div>
           </div>
         </div>
 
         <div class="about-copy">
-          <div class="pill">ABOUT US</div>
+          <div class="pill">ABOUT BIOKO</div>
 
-          <h2 class="about-title">Trusted Partners in Business Execution</h2>
+          <h2 class="about-title">Built to make trade work</h2>
 
           <p class="about-text">
-            With over 20 years of expertise, we empower businesses to achieve sustainable growth, optimize operations,
-            and drive profitability through strategic consulting tailored to their unique needs.
+            <strong>Bioko Works</strong> is the trading name under <strong>Bioko (Pty) Ltd</strong>, designed to signal
+            execution, reliability, and commercial capability — while remaining broad enough to scale. Under the group,
+            <strong>Bioko Reach</strong> delivers in-market execution and distribution, while <strong>Bioko Edge</strong>
+            provides strategy and consulting to unlock competitive advantage.
           </p>
 
           <div class="about-columns">
             <div class="about-box">
-              <div class="about-box-title">Our Mission</div>
+              <div class="about-box-title">Why this structure works</div>
               <p class="about-box-text">
-                To help organisations grow through structured execution, clear reporting, and long-term partnerships.
+                Clear separation of execution (Reach) and thinking (Edge) — giving clients flexible ways to engage.
               </p>
             </div>
 
             <div class="about-box">
-              <div class="about-box-title">Our Values</div>
+              <div class="about-box-title">How we add value</div>
               <p class="about-box-text">
-                Professionalism, Accountability, and measurable results are the pillars of our client success.
+                Advice informed by real execution data, improving credibility and enabling cross-selling across divisions.
               </p>
             </div>
-  </section>
-
-    <!-- CLIENTS / INDUSTRIES -->
-    <section class="section band" id="clients" data-nav="Clients">
-      <div class="container band-inner">
-        <h2 class="band-title">Industries We Serve</h2>
-        <p class="band-subtitle">
-          Data-driven strategic insight for corporates and SMEs across multiple sectors.
-        </p>
-
-        <div class="industry-grid">
-          <div class="industry-card">
-            <div class="industry-ico" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
-                <path d="M3 7h11v10H3V7z" stroke="currentColor" stroke-width="2"/>
-                <path d="M14 10h4l3 3v4h-7v-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div class="industry-name">Logistics &amp; Freight</div>
           </div>
 
+          <div class="about-actions">
+            <a class="btn btn-primary" href="#clients">See Who We Serve</a>
+            <a class="btn btn-ghost" href="#contact">Start a Conversation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS / PLACEHOLDER -->
+    <section class="section band" id="clients" data-nav="Clients">
+      <div class="container band-inner">
+        <h2 class="band-title">Clients &amp; Markets</h2>
+        <p class="band-subtitle">
+          We work with brands, retailers, principals, and partners. A full client list is <strong>available on request</strong>
+          and will be added once confirmed.
+        </p>
+
+        <div class="client-placeholder">
+          <div class="client-note">
+            <div class="client-note-title">Client logos coming soon</div>
+            <div class="client-note-text">
+              Once your client list is shared, we’ll place branded logo tiles here (and optionally add case studies).
+            </div>
+          </div>
+        </div>
+
+        <div class="industry-grid" aria-label="Industries we serve">
           <div class="industry-card">
             <div class="industry-ico" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
@@ -206,11 +392,21 @@
           <div class="industry-card">
             <div class="industry-ico" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+                <path d="M3 7h11v10H3V7z" stroke="currentColor" stroke-width="2"/>
+                <path d="M14 10h4l3 3v4h-7v-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="industry-name">Logistics &amp; Trade</div>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
                 <path d="M4 6h16v10H4V6z" stroke="currentColor" stroke-width="2"/>
                 <path d="M8 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
               </svg>
             </div>
-            <div class="industry-name">Healthcare</div>
+            <div class="industry-name">Consumer Brands</div>
           </div>
 
           <div class="industry-card">
@@ -230,26 +426,14 @@
     <section class="section section-soft" id="contact" data-nav="Contact">
       <div class="container contact-grid">
         <div class="contact-copy">
-          <h2 class="contact-title">Ready to Drive Efficiency?</h2>
+          <div class="pill">CONTACT</div>
+          <h2 class="contact-title">Let’s make your brand work in-market.</h2>
           <p class="contact-text">
-            Tell us about your requirements and we’ll respond within 24–48 hours. Whether you're looking for a
-            consultation or a full project proposal, we're here to help.
+            Share what you need — promotions, activations, distribution, or advisory. We’ll respond with the next steps.
+            <strong>Form submissions are designed to email you</strong> (replace the placeholder address below once confirmed).
           </p>
 
           <div class="contact-items">
-            <div class="contact-item">
-              <div class="contact-badge" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
-                  <path d="M5 4h4l2 5-2 1c1 3 3 5 6 6l1-2 5 2v4c-9 1-16-6-16-16z"
-                        stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div>
-                <div class="contact-label">CALL SUPPORT</div>
-                <div class="contact-value">062 366 5738</div>
-              </div>
-            </div>
-
             <div class="contact-item">
               <div class="contact-badge" aria-hidden="true">
                 <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
@@ -258,31 +442,77 @@
                 </svg>
               </div>
               <div>
-                <div class="contact-label">EMAIL SUPPORT</div>
-                <div class="contact-value">consult@companyname.co.za</div>
+                <div class="contact-label">EMAIL</div>
+                <div class="contact-value">your-email@domain.com</div>
+                <div class="contact-hint">Replace once trading email is confirmed.</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                  <path d="M5 4h4l2 5-2 1c1 3 3 5 6 6l1-2 5 2v4c-9 1-16-6-16-16z"
+                        stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">PHONE</div>
+                <div class="contact-value">Add phone number</div>
+                <div class="contact-hint">Optional — remove if not needed.</div>
               </div>
             </div>
           </div>
         </div>
 
-        <form class="contact-form" action="#" method="post">
+        <!--
+          EMAIL FORM (no backend needed):
+          This uses FormSubmit. Replace "your-email@domain.com" with the final email address.
+          If you already have an API endpoint, replace the action with your endpoint URL.
+        -->
+        <form class="contact-form" action="https://formsubmit.co/your-email@domain.com" method="POST">
+          <input type="hidden" name="_subject" value="Bioko Works Website Enquiry" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <!-- Optional redirect after submit (set to your final domain) -->
+          <input type="hidden" name="_next" value="#contact" />
+
           <div class="form-row">
             <label class="label" for="name">Full Name</label>
-            <input class="input" id="name" name="name" placeholder="Johnathan Smith" />
+            <input class="input" id="name" name="name" placeholder="Your name" required />
           </div>
 
           <div class="form-row">
-            <label class="label" for="email">Company Email</label>
-            <input class="input" id="email" name="email" type="email" placeholder="john@company.com" />
+            <label class="label" for="company">Company</label>
+            <input class="input" id="company" name="company" placeholder="Company / Brand" />
+          </div>
+
+          <div class="form-row">
+            <label class="label" for="email">Email</label>
+            <input class="input" id="email" name="email" type="email" placeholder="you@company.com" required />
+          </div>
+
+          <div class="form-row">
+            <label class="label" for="interest">I’m interested in</label>
+            <select class="input" id="interest" name="interest">
+              <option value="Bioko Reach — Distribution & Route-to-Market">Bioko Reach — Distribution & Route-to-Market</option>
+              <option value="Bioko Works — Promotions & Activations">Bioko Works — Promotions & Activations</option>
+              <option value="Bioko Edge — Advisory & Consulting">Bioko Edge — Advisory & Consulting</option>
+              <option value="Other / Not sure">Other / Not sure</option>
+            </select>
           </div>
 
           <div class="form-row">
             <label class="label" for="message">Message</label>
-            <textarea class="textarea" id="message" name="message" rows="5"
-              placeholder="How can we specifically help your growth?"></textarea>
+            <textarea class="textarea" id="message" name="message" rows="6"
+              placeholder="Tell us what success looks like (stores, regions, timelines, products)..."
+              required></textarea>
           </div>
 
-          <button class="btn btn-primary btn-lg w-100" type="submit">Send Message</button>
+          <button class="btn btn-primary btn-lg w-100" type="submit">Send Enquiry</button>
+
+          <p class="form-note">
+            By submitting, you consent to be contacted regarding your enquiry (POPIA-aligned).
+          </p>
         </form>
       </div>
     </section>
@@ -292,19 +522,30 @@
       <div class="container footer-grid">
         <div class="footer-brand">
           <div class="brand footer-brandline">
-            <span class="brand-badge" aria-hidden="true">A</span>
-            <span class="brand-name">Company Name</span>
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="34" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="3" opacity="0.95"/>
+                <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="3" opacity="0.95"/>
+                <circle cx="24" cy="24" r="5" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="brand-text">
+              <span class="brand-name">Bioko Works</span>
+              <span class="brand-sub">Bioko (Pty) Ltd</span>
+            </span>
           </div>
+
           <p class="footer-text">
-            Leading consultancy specialized in bridging the gap between business goals and actual measurable growth in
-            the Southern African market.
+            One partner, execution plus insight — <strong>Bioko Reach</strong> for route-to-market delivery and
+            <strong>Bioko Edge</strong> for advisory, strategy, and consulting.
           </p>
         </div>
 
         <div class="footer-col">
           <div class="footer-title">LINKS</div>
           <a href="#home" class="footer-link">Home</a>
-          <a href="#services" class="footer-link">Services</a>
+          <a href="#offerings" class="footer-link">Offerings</a>
+          <a href="#divisions" class="footer-link">Divisions</a>
           <a href="#about" class="footer-link">About</a>
           <a href="#contact" class="footer-link">Contact</a>
         </div>
@@ -313,15 +554,15 @@
           <div class="footer-title">LEGAL</div>
           <a href="#" class="footer-link">Privacy Policy</a>
           <a href="#" class="footer-link">Terms of Use</a>
-          <a href="#" class="footer-link">POPI Act</a>
+          <a href="#" class="footer-link">POPIA</a>
         </div>
       </div>
 
       <div class="container footer-bottom">
-        <div class="footer-small">© 2026 Company Name (Pty) Ltd. All rights reserved.</div>
+        <div class="footer-small">© <span id="year"></span> Bioko Works (Bioko (Pty) Ltd). All rights reserved.</div>
         <div class="footer-social">
           <a href="#" class="footer-link">LinkedIn</a>
-          <a href="#" class="footer-link">Twitter</a>
+          <a href="#" class="footer-link">Instagram</a>
         </div>
       </div>
     </footer>
@@ -348,7 +589,6 @@
 
     // Observe sections
     const io = new IntersectionObserver((entries) => {
-      // choose the most visible section
       const visible = entries
         .filter(e => e.isIntersecting)
         .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
@@ -360,6 +600,10 @@
     });
 
     sections.forEach(s => io.observe(s));
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
+
